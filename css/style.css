@@ -124,7 +124,8 @@ body {
   padding-bottom: 188px;
   min-height: 100px;
   background: var(--background-color);
-  background-image:url(../images/background-img/Dark-bg.png), url(../images/background-img/people-office\ 1.png);
+  /* background-image:url(../images/background-img/Dark-bg.png), url(../images/background-img/people-office\ 1.png); */
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/people-office\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
