@@ -186,10 +186,13 @@ body {
   list-style-type: none;
 }
 .features-cards {
+  margin-bottom: 8px;
   height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-light-color);
+  border-radius: 4px;
 }
 .main-features {
   margin-bottom: 8px;
