@@ -303,9 +303,7 @@ body {
 .socials-link {
   display: flex;
   justify-content: center;
-  width: 16px;
-  height: 16px;
-  background-color: var(--fff);
+  background-color: var(--button-color);
   border-radius: 50%;
   color: var(--background-light-color);
 }
@@ -314,7 +312,7 @@ body {
   background-color: var(--hover-link);
 }
 .socials-icon {
-  fill: currentColor;
+  fill: var(--fff);
 }
 /* .socials-icon{
   fill: var(--background-light-color);
@@ -334,6 +332,12 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.customer-cards{   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px #8E8F99;
+ }
 .main-footer {
   padding-top: 100px;
   padding-bottom: 100px;
