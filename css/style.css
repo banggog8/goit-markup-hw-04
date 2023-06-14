@@ -282,26 +282,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--p_text);
 }
-.instagram{
-fill: #fff;
-background-color: var(--button-color);
-border-radius: 20%;
-}
-.twitter{
-  fill: #fff;
-  background-color: var(--button-color);
-  
-}
-.facebook{
-  fill: #fff;
-  background-color: var(--button-color);
-  
-}
-.linkedin{
-  fill: #fff;
-  background-color: var(--button-color);
-  
-}
+
 .customers{
 font-weight: 700;
 font-size: 36px;
