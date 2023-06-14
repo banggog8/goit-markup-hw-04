@@ -315,6 +315,10 @@ body {
   border-radius: 50%;
   color: var(--background-light-color);
 }
+.socials-item{
+  width: 40px;
+  height: 40px;
+}
 .socials-link:hover {
   color: var(--fff);
   background-color: var(--hover-link);
