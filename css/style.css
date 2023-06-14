@@ -307,6 +307,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
+ 
 }
 .socials-link {
   display: flex;
@@ -315,11 +316,12 @@ body {
   background-color: var(--button-color);
   border-radius: 50%;
   color: var(--background-light-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-item{
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .socials-link:hover {
   color: var(--fff);
