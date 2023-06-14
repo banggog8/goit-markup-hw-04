@@ -323,7 +323,8 @@ body {
   height: 40px;
   
 }
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   color: var(--fff);
   background-color: var(--hover-link);
 }
