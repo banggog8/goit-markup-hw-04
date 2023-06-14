@@ -354,6 +354,9 @@ body {
   text-transform: capitalize;
   color: var(--background-color);
 }
+.customers-clients{
+
+}
 .customer-cards {
   display: flex;
   align-items: center;
