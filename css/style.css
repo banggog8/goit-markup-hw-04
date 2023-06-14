@@ -265,7 +265,6 @@ body {
 .div-team-items{
   padding: 32px 16px;
 }
-
 .name-and-surname {
   margin-bottom: 8px;
   font-size: 20px;
@@ -275,6 +274,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--background-color);
 }.job {
+  margin-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -282,7 +282,39 @@ body {
   letter-spacing: 0.02em;
   color: var(--p_text);
 }
+/* Social items */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:24px;
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: var(--fff);
+  border-radius: 50%;
+  color: var(--background-light-color) ;
+}
+.socials-link:hover{
+color: var(--fff);
+background-color: var(--hover-link);
+}
+.socials-icon{
+  fill: currentColor;
+}
+/* .socials-icon{
+  fill: var(--background-light-color);
+}
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon{
+  fill: var(--button-color);
+} */
 
+
+/* // Social items */
 .customers{
 font-weight: 700;
 font-size: 36px;
