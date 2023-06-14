@@ -355,7 +355,8 @@ body {
   color: var(--background-color);
 }
 .customers-clients{
-
+  display: flex;
+  gap: 24px;
 }
 .customer-cards {
   display: flex;
