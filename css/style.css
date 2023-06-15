@@ -388,13 +388,13 @@ body {
   background: var(--background-color);
 }
 .footer-container{
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
+ 
   
 }
 .footer-logo{
-  
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .studio-footer {
