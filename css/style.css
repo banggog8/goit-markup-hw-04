@@ -390,7 +390,11 @@ body {
 .footer-container{
   display: flex;
   align-items: baseline;
-  margin-right: 120px ;
+  margin-right: 120px;
+  
+}
+.footer-logo{
+  
 }
 .studio-footer {
   color: var(--background-light-color);
