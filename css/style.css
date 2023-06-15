@@ -377,12 +377,12 @@ body {
   border-color: var(--hover-link);
   color: var(--hover-link);
 }
-.customer-cards {
+/* .customer-cards {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px #8e8f99;
-}
+} */
 .main-footer {
   padding-top: 100px;
   padding-bottom: 100px;
