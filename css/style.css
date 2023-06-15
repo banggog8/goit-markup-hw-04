@@ -402,6 +402,10 @@ body {
 .socials-footer{
  gap:16px;
 }
+.socials-footer-item:hover,
+.socials-footer-item:focus{
+  background-color: #31d0aa;
+}
 
 .studio-footer {
   color: var(--background-light-color);
