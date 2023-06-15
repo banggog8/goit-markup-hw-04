@@ -307,7 +307,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
  
 }
 .socials-link {
@@ -397,6 +397,9 @@ body {
 .footer-logo{
  
   margin-right: 120px;
+}
+.socials-footer{
+ gap:16px;
 }
 
 .studio-footer {
