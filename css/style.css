@@ -222,6 +222,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.main-parag:hover,
+.main-parag:focus{
+  transform: translateY(0%);
+}
 /* //Section 2 */
 /* Section 3 */
 .actions {
