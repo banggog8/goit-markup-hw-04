@@ -326,7 +326,7 @@ body {
 .socials-link:hover,
 .socials-link:focus {
   color: var(--fff);
-  background-color: var(--hover-link);
+  background-color: #31d0aa;
 
 }
 .socials-icon {
