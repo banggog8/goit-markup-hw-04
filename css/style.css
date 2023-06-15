@@ -63,6 +63,7 @@ body {
 }
 .link {
   text-decoration: none;
+  display: block;
 }
 .web-studio-logo {
   display: inline-block;
