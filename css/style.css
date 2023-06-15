@@ -400,7 +400,7 @@ body {
 .studio-footer {
   color: var(--background-light-color);
 }
-.main-footer {
+.footer-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
