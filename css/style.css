@@ -372,6 +372,11 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
+.customer-link:hover,
+.customer-link:focus{
+  border-color: var(--hover-link);
+  color: var(--hover-link);
+}
 .customer-cards {
   display: flex;
   align-items: center;
