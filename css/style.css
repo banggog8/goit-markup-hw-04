@@ -12,8 +12,8 @@ html {
   left: 0;
   bottom: -1px; 
   height: 4px;
-  background-color: var(--hover-link)
-
+  background-color: var(--hover-link);
+  border-radius: 2px;
 }
 
 :root {
