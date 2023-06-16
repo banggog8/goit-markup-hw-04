@@ -3,10 +3,18 @@ html {
 }
 *,
 *::before,
-*::after {
+* {
   box-sizing: inherit;
-  content: "";
 }
+::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px; 
+  height: 4px;
+  background-color: var(--hover-link)
+}
+
 :root {
   --background-color: #2e2f42;
   --background-light-color: #f4f4fd;
@@ -194,7 +202,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--background-light-color);
-  
+  border-radius: 2px;
 }
 .main-features {
   margin-bottom: 8px;
