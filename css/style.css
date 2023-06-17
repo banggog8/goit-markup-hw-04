@@ -590,5 +590,5 @@ transform: translateY(0);
 .modal-btn:hover,
 .modal-btn:focus{
   background-color:var(--hover-link);
-  border: non; 
+  border: none; 
 }
