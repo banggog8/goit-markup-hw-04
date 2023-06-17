@@ -6,7 +6,7 @@ html {
 * {
   box-sizing: inherit;
 }
-/* ::after{
+::after{
   content: "";
   position: absolute;
   left: 0;
@@ -14,7 +14,7 @@ html {
   height: 4px;
   background-color: var(--hover-link);
   border-radius: 2px;
-} */
+}
 
 :root {
   --background-color: #2e2f42;
