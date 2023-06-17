@@ -535,3 +535,20 @@ body {
   visibility: hidden; 
   pointer-events: none;
 }
+
+.portfolio-card-wrap{
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-part-text{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  background-color: blue;
+}
+.portfolio-link:hover .portfolio-part-text,
+.portfolio-link:focus .portfolio-part-text{
+transform: translateY(0);
+}
