@@ -542,11 +542,15 @@ body {
 }
 .portfolio-part-text{
   height: 100%;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
+  color: var(--background-light-color);
   position: absolute;
   top: 0;
   padding: 40px 32px;
   transform: translateY(100%);
-  background-color: blue;
+  background-color: var(--button-color);
+  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover .portfolio-part-text,
 .portfolio-link:focus .portfolio-part-text{
