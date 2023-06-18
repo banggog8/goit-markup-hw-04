@@ -591,6 +591,7 @@ transform: translateY(0);
 .modal-btn:focus{
   background-color:var(--hover-link);
   border: none; 
+  fill: var(--fff);
 }
 .modal-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
